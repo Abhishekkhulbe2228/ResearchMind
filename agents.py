@@ -10,7 +10,7 @@ load_dotenv()
 
 #model setup 
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-120b",
     temperature=0.3,
     groq_api_key=st.secrets["GROQ_API_KEY"]
 )
